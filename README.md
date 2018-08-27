@@ -21,7 +21,7 @@ Requirements: Node.js >= 6, git in PATH.
 
 Create a directory e.g. `/srv/github` and run `github-local --user=YourGithubUser --path=/srv/github`. You are not 
 forced to use a Github API Token, but if you don't you will probably hit the API rate limit (depending on the number
-of repos you have), so it's strongly adviced to use one.
+of repos you have), so it's strongly advised to use one.
 
 
 ### Command Line Options
@@ -47,4 +47,8 @@ All Command Line Options can be supplied by environment variables. Prefix them w
 
 ## License
 
-MIT (c) Sebastian Raff
+MIT © [Sebastian Raff](https://github.com/hobbyquaker)
+
+
+[mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
+[mit-url]: LICENSE
