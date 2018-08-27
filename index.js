@@ -107,7 +107,7 @@ function shiftQueue() {
         const [fullName, cloneUrl] = queue.shift();
         if (fs.existsSync(path.join(config.path, fullName, '.git'))) {
             spinner.start('pull  ' + fullName);
-            cmd = 'git -C ' + path.join(config.path, fullName) + ' pull';
+            cmd = 'git -C ' + path.join(config.path, fullName) + ' pull --all';
         } else {
             spinner.start('clone ' + fullName);
             const userPath = path.join(config.path, fullName.split('/')[0]);
