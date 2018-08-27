@@ -1,0 +1,27 @@
+{
+  "name": "github-local",
+  "version": "1.0.0",
+  "description": "Clone/Pull all your Github Repositories",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo",
+    "lintfix": "xo --fix"
+  },
+  "bin": {
+    "github-local": "./index.js"
+  },
+  "author": "Sebastian Raff <hobbyquaker@gmail.com> https://github.com/hobbyquaker",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ora": "^3.0.0",
+    "request": "^2.88.0",
+    "yargs": "^12.0.1"
+  },
+  "xo": {
+    "space": 4
+  },
+  "devDependencies": {
+    "xo": "^0.22.0"
+  }
+}
