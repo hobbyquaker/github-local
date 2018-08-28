@@ -42,7 +42,7 @@ Options:
 ### Environment Variables
 
 All Command Line Options can be supplied by environment variables. Prefix them with `GL_` and use uppercase, e.g.
-`GH_TOKEN=1234567890abcdef`.
+`GL_TOKEN=1234567890abcdef`.
 
 
 ## License
